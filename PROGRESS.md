@@ -14,3 +14,8 @@
 - [x] 최초 커밋 생성
 - [x] `gh repo create lovingny-create/hubbleeye-galaxy-classifier --public` 로 저장소 생성 및 push
 - [x] GitHub에서 업로드 결과 확인 → https://github.com/lovingny-create/hubbleeye-galaxy-classifier
+
+## 웹 배포
+- [x] 프론트엔드 → Vercel 배포 완료: https://hubbleeye-galaxy-classifier-39qviblyb-lovingny-7849s-projects.vercel.app (Root Directory=frontend, backend는 별도 서비스로 제외)
+- [ ] 백엔드(FastAPI + TFLite) → Render 등에 배포 (아직 미진행 — 배포 전까지는 프론트엔드에서 "분석하기" 눌러도 실패함)
+- [ ] 백엔드 배포 후 프론트엔드가 백엔드 URL을 바라보도록 환경변수 연결
