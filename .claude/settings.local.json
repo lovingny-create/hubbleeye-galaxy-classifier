@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(pip list *)",
+      "Bash(pip --version)",
+      "Bash(npx shadcn-ui@latest init -y)",
+      "PowerShell(Get-ChildItem \"D:\\\\GSA\\\\2026\\\\외부 은하 분류기\\\\frontend\" | Where-Object {$_.Name -match \"tailwind|next\"} | Select-Object Name)",
+      "Bash(npx shadcn-ui@latest add button card badge progress -y)",
+      "Bash(.venv\\\\Scripts\\\\activate)",
+      "Bash(npm run *)",
+      "Bash(npx shadcn@latest add badge -y)",
+      "Bash(npx shadcn@latest add badge)",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "PowerShell(taskkill *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(cd /tmp)",
+      "Bash(python3)",
+      "Bash(cat)",
+      "Read(//tmp/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs -r kill -9)",
+      "Bash(pkill -f \"uvicorn main:app\")",
+      "WebFetch(domain:data.galaxyzoo.org)",
+      "WebFetch(domain:zoobot.readthedocs.io)",
+      "WebFetch(domain:zenodo.org)",
+      "WebFetch(domain:gz2hart.s3.amazonaws.com)"
+    ]
+  }
+}
