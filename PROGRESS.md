@@ -9,8 +9,8 @@
 
 ## GitHub 업로드
 - [x] 저장소 구조 파악 (frontend 자체 git, backend/루트는 미초기화)
-- [ ] `frontend/.git` 제거 후 루트에 `git init`
-- [ ] 루트 `.gitignore` 작성 (node_modules, .next, .venv, __pycache__ 등 제외)
-- [ ] 최초 커밋 생성
-- [ ] `gh repo create lovingny-create/hubbleeye-galaxy-classifier --public` 로 저장소 생성 및 push
-- [ ] GitHub에서 업로드 결과 확인
+- [x] `frontend/.git` 제거 후 루트에 `git init`
+- [x] 루트 `.gitignore` 작성 (node_modules, .next, .venv, __pycache__ 등 제외)
+- [x] 최초 커밋 생성
+- [x] `gh repo create lovingny-create/hubbleeye-galaxy-classifier --public` 로 저장소 생성 및 push
+- [x] GitHub에서 업로드 결과 확인 → https://github.com/lovingny-create/hubbleeye-galaxy-classifier
