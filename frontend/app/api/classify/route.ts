@@ -2,7 +2,8 @@ export async function POST(request: Request) {
   try {
     const formData = await request.formData();
 
-    const response = await fetch("http://localhost:8000/predict", {
+    const backendUrl = process.env.BACKEND_URL || "http://localhost:8000";
+    const response = await fetch(`${backendUrl}/predict`, {
       method: "POST",
       body: formData,
     });
